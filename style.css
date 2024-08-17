@@ -1,0 +1,92 @@
+.logo{
+    width: 150px;
+}
+.navbar{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 6px 0px #616060;
+    height: 70px;
+}
+.btn-custom{
+    background-color: #FF7043;
+    border: none;
+    padding: 7px 15px 7px 15px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 5%;
+    text-decoration: none;
+}
+.btn-border{
+    background-color: transparent;
+    border: 1px solid #FF7043;
+    padding: 7px 15px 7px 15px;
+    font-weight: 600;
+    color: #FF7043;
+    border-radius: 5%;
+}
+.btn-border:hover{
+    background-color: #FF7043;
+    color: #ffffff;
+    border: 1px solid #FF7043 ;
+}
+.search-btn-design{
+    background-color: #FF7043;
+    color: #ffffff;
+    border-radius: 100%;
+    padding: 10px;
+    /* size: 600px; */
+    border: none;
+}
+.ser-mar{
+    margin: 0px 0px 0px 0px;
+}
+.navbar {
+    /* position: relative; */
+    z-index: 2; /* Ensure the navbar is above other content */
+    background-color: #fff; /* Optional: Set a background color for visibility */
+    width: 100%;
+}
+
+.carousel {
+    /* position: relative; */
+    /* z-index: 0; Slider stays behind the navbar */
+    margin-top: -10px; /* Slight adjustment to bring the slider closer */
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 3; /* Higher z-index to ensure it's above the slider */
+        background-color: #fff; /* Ensure the navbar is visible against the slider */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visibility */
+        padding: 10px; /* Ensure padding for better touch experience */
+    }
+
+    .navbar-collapse {
+        background-color: #fff; /* Ensure dropdown menu has background color */
+    }
+}
+.navbar-expand-lg{
+    background-color: #fff;
+}
+.custom-ic{
+    width: 22%;
+    color: #fff;
+    height: 50px;
+    background-color: #FF7043;
+}
+@media (max-width: 768px) {
+    .custom-ic{
+        width: 14%;
+    }
+}
+.btn-w{
+    width: 100px;
+}
+@media (max-width: 768px) {
+    .btn-w{
+        margin-bottom: 10px;
+    }
+}
